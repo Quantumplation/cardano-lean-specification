@@ -1,0 +1,10 @@
+name = "cardano-lean-specification"
+version = "0.1.0"
+defaultTargets = ["cardano-lean-specification"]
+
+[[lean_lib]]
+name = "CardanoLeanSpecification"
+
+[[lean_exe]]
+name = "cardano-lean-specification"
+root = "Main"
