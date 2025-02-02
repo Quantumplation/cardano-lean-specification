@@ -54,13 +54,3 @@ def utxo_transition
     }
   else
     state
-
-def main : IO Unit := do
-  -- let env: UTXOEnv := { slot := 0 }
-  -- let state: UTXOState := { utxo := fun _ => { address := "", value := 0 }, fees := 0 }
-  -- let transaction: Transaction := { inputs := ∅, valid_range:= (0, 2), outputs := [], fee := 0 }
-  -- let newState := utxo_transition env state transaction
-  -- dbg_trace "Slot: {newState.fees}"
-  return ()
-
-#eval main
